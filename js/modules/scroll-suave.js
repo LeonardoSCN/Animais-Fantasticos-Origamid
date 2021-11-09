@@ -17,7 +17,6 @@ export default class ScrollSuave {
     section.scrollIntoView(this.options);
   }
 
-
   addLinkEvent() {
     this.linksInternos.forEach((link) => {
       link.addEventListener('click', this.scrollToSection);
